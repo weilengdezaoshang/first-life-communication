@@ -14,7 +14,7 @@ export default defineConfig({
       'components': fileURLToPath(new URL('src/assets/components', import.meta.url)),
       'data': fileURLToPath(new URL('src/assets/data', import.meta.url)),
       'utils': fileURLToPath(new URL('src/utils', import.meta.url))
-    }
-
-  }
+    },
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
+  },
 })

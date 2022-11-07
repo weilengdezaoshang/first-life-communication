@@ -7,3 +7,6 @@ document.documentElement.addEventListener("touchmove", function(e) {
             e.preventDefault();
         }
     }, false) //清楚默认事件
+
+
+console.log(document.documentElement.style.fontSize)
