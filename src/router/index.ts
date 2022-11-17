@@ -4,15 +4,14 @@ import List from '@/views/List.vue';
 import Search from '@/views/Search.vue';
 import City from '@/views/City.vue';
 import Detail from '@/views/Detail.vue';
-import HelloWorldVue from '@/components/HelloWorld.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'hello',
-      component: HelloWorldVue
+      name: 'index',
+      component: Index
     },
     {
       path: '/search',
